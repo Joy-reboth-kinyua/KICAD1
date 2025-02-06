@@ -1,0 +1,10 @@
+*.bak
+*.autosave
+*.cfg
+*.log
+*.swp
+*.net
+*kicad_swp
+*.kicad_pcb_bak
+*kicad_pcb_swp
+*.gbr
