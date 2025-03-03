@@ -1,0 +1,117 @@
+Info: Processing symbol 'BT1:Battery:BatteryHolder_ComfortableElectronic_CH273-2450_1x2450'.
+Info: Processing symbol 'R1:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal'.
+Info: Processing symbol 'D1:LED_THT:LED_D5.0mm'.
+Info: Processing symbol 'MK1:Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical'.
+Info: Processing symbol 'R2:OptoDevice:R_LDR_5.1x4.3mm_P3.4mm_Vertical'.
+Info: Processing symbol 'R4:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal'.
+Info: Processing symbol 'R3:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal'.
+Info: Processing symbol 'SW1:Button_Switch_THT:SW_E-Switch_EG1224_SPDT_Angled'.
+Info: Processing symbol 'U1:Package_DIP:DIP-8_W7.62mm'.
+Updated BT1 symbol association from  to /ae67254b-e04b-4163-9578-313301428ddd.
+Updated BT1 fields.
+Updated BT1 sheetname to 'Root'.
+Updated BT1 sheetfile to 'feb2025.kicad_sch'.
+Add net +3.3V.
+Connected BT1 pin 1 to +3.3V.
+Add net Net-(BT1--).
+Connected BT1 pin 2 to Net-(BT1--).
+Added D1 (footprint 'LED_THT:LED_D5.0mm').
+Changed REF** reference designator to D1.
+Changed D1 value from LED_D5.0mm to 5mm yellow LED.
+Updated D1 symbol association from  to /72f2b785-f92f-405d-b80e-f2cd093bb88b.
+Updated D1 fields.
+Updated D1 sheetname to 'Root'.
+Updated D1 sheetfile to 'feb2025.kicad_sch'.
+Updated D1 footprint filters to 'LED* LED_SMD:* LED_THT:*'.
+Add net Net-(D1-K).
+Connected D1 pin 1 to Net-(D1-K).
+Add net /LED.
+Connected D1 pin 2 to /LED.
+Added MK1 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical').
+Changed REF** reference designator to MK1.
+Changed MK1 value from PinHeader_1x02_P2.54mm_Vertical to Microphone_Condenser.
+Updated MK1 symbol association from  to /a4d27b3c-84ac-4405-8210-de0e782d0ac2.
+Updated MK1 fields.
+Updated MK1 sheetname to 'Root'.
+Updated MK1 sheetfile to 'feb2025.kicad_sch'.
+Add net /MIC.
+Connected MK1 pin 2 to /MIC.
+Add net GND.
+Connected MK1 pin 1 to GND.
+Added R1 (footprint 'Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal').
+Changed REF** reference designator to R1.
+Changed R1 value from R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal to 10K.
+Updated R1 symbol association from  to /b6812af9-55f3-4085-8faf-65a248db61d3.
+Updated R1 fields.
+Updated R1 sheetfile to 'feb2025.kicad_sch'.
+Updated R1 footprint filters to 'R_*'.
+Connected R1 pin 1 to +3.3V.
+Add net /LDR.
+Connected R1 pin 2 to /LDR.
+Added R2 (footprint 'OptoDevice:R_LDR_5.1x4.3mm_P3.4mm_Vertical').
+Changed REF** reference designator to R2.
+Changed R2 value from R_LDR_5.1x4.3mm_P3.4mm_Vertical to 5mm LDR.
+Updated R2 symbol association from  to /fe44b010-e80a-4db4-9f75-7b40a9b68ac1.
+Updated R2 fields.
+Updated R2 sheetname to 'Root'.
+Updated R2 sheetfile to 'feb2025.kicad_sch'.
+Updated R1 sheetname to 'Root'.
+Connected R2 pin 1 to /LDR.
+Connected R2 pin 2 to GND.
+Added BT1 (footprint 'Battery:BatteryHolder_ComfortableElectronic_CH273-2450_1x2450').
+Added R3 (footprint 'Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal').
+Changed REF** reference designator to R3.
+Changed R3 value from R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal to 5.6K.
+Updated R3 symbol association from  to /9c70800b-e1c6-4c78-a58d-d98ab90e26aa.
+Updated R3 fields.
+Updated R3 sheetname to 'Root'.
+Updated R3 sheetfile to 'feb2025.kicad_sch'.
+Updated R3 footprint filters to 'R_*'.
+Connected R3 pin 2 to /MIC.
+Connected R3 pin 1 to +3.3V.
+Updated R2 footprint filters to 'R*LDR*5.1x4.3mm*P3.4mm*'.
+Added R4 (footprint 'Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal').
+Changed REF** reference designator to R4.
+Changed R4 value from R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal to 470R.
+Updated R4 symbol association from  to /0631fc70-c48d-43b0-a733-2e8bc14bf9e4.
+Updated R4 fields.
+Updated R4 sheetname to 'Root'.
+Updated R4 sheetfile to 'feb2025.kicad_sch'.
+Updated R4 footprint filters to 'R_*'.
+Connected R4 pin 1 to Net-(D1-K).
+Connected R4 pin 2 to GND.
+Changed REF** reference designator to BT1.
+Added SW1 (footprint 'Button_Switch_THT:SW_E-Switch_EG1224_SPDT_Angled').
+Changed REF** reference designator to SW1.
+Changed SW1 value from SW_E-Switch_EG1224_SPDT_Angled to SW_SPDT.
+Updated SW1 symbol association from  to /82e71dc4-5e74-4556-b85c-3b575ce10514.
+Updated SW1 fields.
+Updated SW1 sheetname to 'Root'.
+Updated SW1 sheetfile to 'feb2025.kicad_sch'.
+Add net unconnected-(SW1-A-Pad1).
+Connected SW1 pin 1 to unconnected-(SW1-A-Pad1).
+Connected SW1 pin 3 to Net-(BT1--).
+Connected SW1 pin 2 to GND.
+Changed BT1 value from BatteryHolder_ComfortableElectronic_CH273-2450_1x2450 to 3.3 CELL.
+Added U1 (footprint 'Package_DIP:DIP-8_W7.62mm').
+Changed REF** reference designator to U1.
+Changed U1 value from DIP-8_W7.62mm to MCL.
+Updated U1 symbol association from  to /2b1b9dab-ded1-4771-8988-c4f90909c5dd.
+Updated U1 fields.
+Updated U1 sheetname to 'Root'.
+Updated U1 sheetfile to 'feb2025.kicad_sch'.
+Updated U1 footprint filters to 'DIP*W7.62mm*'.
+Add net unconnected-(U1-~{RESET}/PB5-Pad1).
+Connected U1 pin 1 to unconnected-(U1-~{RESET}/PB5-Pad1).
+Connected U1 pin 4 to GND.
+Add net unconnected-(U1-AREF/PB0-Pad5).
+Connected U1 pin 5 to unconnected-(U1-AREF/PB0-Pad5).
+Connected U1 pin 2 to /MIC.
+Connected U1 pin 7 to /LDR.
+Connected U1 pin 8 to +3.3V.
+Add net unconnected-(U1-XTAL2/PB4-Pad3).
+Connected U1 pin 3 to unconnected-(U1-XTAL2/PB4-Pad3).
+Connected U1 pin 6 to /LED.
+
+
+Info: Total warnings: 0, errors: 0.
